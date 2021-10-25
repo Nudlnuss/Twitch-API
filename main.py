@@ -4,7 +4,7 @@ import urllib.parse
 import json
 
 def load_twitch_ids():
-    with open("twitch_json_example.json", "r") as read_file:
+    with open("twitch_json.json", "r") as read_file:
         file = json.load(read_file)
 
     return file
